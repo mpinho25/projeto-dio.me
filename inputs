@@ -1,0 +1,43 @@
+Resumo do Projeto com Tecnologias
+Objetivo:
+Desenvolver um modelo de Machine Learning para prever vendas futuras com base em dados históricos.
+
+Etapas do Projeto:
+
+Coleta e Preparação de Dados:
+
+Fontes: Planilhas, bancos de dados SQL, APIs de vendas.
+
+Ferramentas: Python (pandas, NumPy), SQL.
+
+Atividades: Limpeza de dados, tratamento de valores ausentes, criação de variáveis derivadas e normalização.
+
+Seleção e Treinamento de Modelos:
+
+Algoritmos: Regressão Linear, Random Forest, XGBoost, Redes Neurais (MLP).
+
+Frameworks: Scikit-learn, XGBoost, TensorFlow/Keras.
+
+Validação: Divisão em treino/teste, validação cruzada.
+
+Avaliação de Desempenho:
+
+Métricas: MAE (Erro Absoluto Médio), RMSE (Raiz do Erro Quadrático Médio), R² (Coeficiente de Determinação).
+
+Visualizações: Matplotlib, Seaborn para gráficos de erros e tendências.
+
+Implantação:
+
+Ambientes: AWS (SageMaker, Lambda), Google Cloud AI Platform ou Azure ML.
+
+APIs: FastAPI ou Flask para disponibilizar o modelo via endpoint.
+
+Monitoramento: Logs, alertas, reavaliação periódica do modelo.
+
+Escalabilidade e Eficiência:
+
+Contêineres: Docker para empacotar o modelo.
+
+Orquestração: Kubernetes (opcional para alta escala).
+
+Automação: Pipelines com Airflow ou MLflow.
